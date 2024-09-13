@@ -1,32 +1,33 @@
 const getLastElement = (array) => array.at(-1);
 
-function isPalindrome(string) {
+function isPalindrome(str) {
   // quelle: https://www.programiz.com/javascript/examples/palindrome
   // find the length of a string
-  const len = string.length;
+  const replace = str.replaceAll(" ", "");
+  const len = replace.length;
 
   // loop through half of the string
   for (let i = 0; i < len / 2; i++) {
     // check if first and last string are same
-    if (string[i] !== string[len - 1 - i]) {
-      return "It is not a palindrome";
+    if (replace[i] !== replace[len - 1 - i]) {
+      return false;
     }
   }
-  return "It is a palindrome";
+  return true;
 }
 
-const capitalizeWords = (string) => string[0].toUpperCase() + string.slice(1);
+const capitalizeWords = (str) => str[0].toUpperCase() + str.slice(1);
 
 function lengthOfLongestWord(str) {
   // quellen: https://stackoverflow.com/questions/44663705/getting-an-array-with-lengths-of-words-from-a-sentence-javascript
   // trim trailing white space.
-  var split = str.trim().split(/\s+/);
-  var lengths = [];
+  const split = str.trim().split(/\s+/);
+  const lengths = [];
 
   // loop through array of words
   for (j = 0; j < split.length; j++) {
     // check the length of current words
-    var wordCount = split[j].length;
+    const wordCount = split[j].length;
     lengths.push(wordCount);
   }
 

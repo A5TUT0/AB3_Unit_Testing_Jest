@@ -17,8 +17,11 @@ test("Make that the first letter of the word be capital", () => {
   expect(capitalizeWords("test")).toBe("Test");
 });
 test("Check if this is a palindrome word", () => {
-  expect(isPalindrome("level")).toBe("It is a palindrome");
+  expect(isPalindrome("level")).toBe(true);
 });
 test("Check if this is a palindrome word", () => {
-  expect(isPalindrome("asdf")).toBe("It is not a palindrome");
+  expect(isPalindrome("madam im adam")).toBe(true);
+});
+test("Check if this is a palindrome word", () => {
+  expect(isPalindrome("asdf")).toBe(false);
 });

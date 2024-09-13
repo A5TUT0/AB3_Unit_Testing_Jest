@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1726175970761" clover="3.2.0">
-  <project timestamp="1726175970762" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="20" coveredelements="20" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
+<coverage generated="1726211822182" clover="3.2.0">
+  <project timestamp="1726211822182" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4" elements="21" coveredelements="21" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
     <file name="formatting.js" path="C:\Users\AST\Documents\GitHub\AB3_Unit_Testing_Jest\Aufgabe2\formatting.js">
-      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="9" count="2" type="stmt"/>
-      <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
       <line num="24" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="29" count="9" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
       <line num="30" count="9" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
+      <line num="31" count="9" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

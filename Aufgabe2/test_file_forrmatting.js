@@ -12,4 +12,4 @@ const text2 = "hello";
 console.log(getLastElement(array)); // expect: friend
 console.log(lengthOfLongestWord(text)); // expect: 9
 console.log(capitalizeWords(text2)); // expect: Hello
-console.log(isPalindrome(text2)); // expect: It is not a palindrome
+console.log(isPalindrome(text2)); // expect: false
