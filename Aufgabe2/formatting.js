@@ -32,3 +32,10 @@ function lengthOfLongestWord(str) {
 
   return Math.max(...lengths);
 }
+
+module.exports = {
+  getLastElement,
+  lengthOfLongestWord,
+  capitalizeWords,
+  isPalindrome,
+};
